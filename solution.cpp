@@ -129,6 +129,7 @@ int main() {
       }
       for (const auto& w : words_to_add) {
         Add(w);
+        dict_add[w] = false;
       }
     }
 
