@@ -103,6 +103,7 @@ int main() {
       } else {
         cout << "The most common word for this prefix is: " << ans.first << '\n';
       }
+      old_index_in_bor = ans.second;
     } 
     
     else if (sign == '#') {
